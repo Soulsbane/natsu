@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fireflies and Cicadas in summer.</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.js"></script>
+	</head>
+
+	<body>
+		<div class="container"></div>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+		<script src="js/fireflies.js"></script>
+		<script>
+			var sound = new Howl({
+				src: ['sounds/cicada-at-night.mp3'],
+				autoplay: true,
+				loop: true,
+				volume: 0.5,
+			});
+
+			sound.play();
+		</script>
+	</body>
+</html>
