@@ -1,3 +1,7 @@
+body {
+	margin: 0px;
+}
+
 #dust {
   position: absolute;
   width: 100%;
@@ -5,9 +9,16 @@
   top: 0;
 }
 
-body{
+/*body{
   background-image: url("../images/misty-forest-day.jpg");
   height: 100%;
-  background-repeat: no-repeat;
   background-size: cover;
+}*/
+
+#daytimeForestBackground {
+	background-image: url("../images/misty.forest.day.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
 }
