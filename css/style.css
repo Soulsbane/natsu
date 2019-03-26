@@ -9,12 +9,6 @@ body {
   top: 0;
 }
 
-/*body{
-  background-image: url("../images/misty-forest-day.jpg");
-  height: 100%;
-  background-size: cover;
-}*/
-
 #daytimeForestBackground {
 	background-image: url("../images/misty.forest.day.jpg");
 	background-size: cover;
